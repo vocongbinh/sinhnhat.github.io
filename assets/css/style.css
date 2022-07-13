@@ -51,6 +51,7 @@ html{
     font-size: 26px;
     margin-left:20px;
     cursor:pointer;
+    color: palegreen;
 }
 .start:hover{
     background-color: #a2510a;
@@ -300,7 +301,7 @@ img.img1 {
   
   .layer p {
     position: relative;
-    top: 20%;
+    top: 14%;
     margin: 0;
   }
   
@@ -309,7 +310,7 @@ img.img1 {
   } */
   
   .layer.two {
-    background: #95dc84;
+  background-image: url('/assets/img/background-dep-1.jpg');
   }
   
   .layer.three {
@@ -566,4 +567,23 @@ img.img1 {
     font-size: 24px;
     padding: 20px 30px;
     border-radius: 36px;
+}
+.bam img{
+  width: 64px;
+  position: absolute;
+  bottom: 23px;
+  left: 780px;
+}
+h3 {
+  font-size: 14px;
+  color: cornsilk;
+  position: absolute;
+  left: 786px;
+  bottom: 75px;
+}
+h1.nhac {
+  font-size: 16px;
+  position: absolute;
+  bottom: 111px;
+  left: 771px;
 }

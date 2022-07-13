@@ -11,14 +11,14 @@ nhap.addEventListener('click',(e)=>{
     type();
     
 })
-setInterval(function(){
-text.classList.toggle('red');
-},500)
-var loiChuc='chúc mừng sinh nhật';
-var i=0;
+setInterval(()=>{
+  text.classList.toggle('red');
+}, 500)
+var loiChuc='  chúc mừng sinh nhật'
 var tocDo = 50;
+var i = 0;
 function type(){
-    if(i<loiChuc.length){
+    if(i <loiChuc.length){
 document.querySelector('.loi_chuc').innerHTML +=loiChuc.charAt(i);
         i++;
         setTimeout(type,tocDo);
