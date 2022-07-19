@@ -310,6 +310,8 @@ img.img1 {
   } */
   
   .layer.two {
+  width: 100vw;
+  height: 100vh;
   background-image: url('assets/img/background2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
